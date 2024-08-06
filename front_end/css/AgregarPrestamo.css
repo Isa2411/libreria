@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.sidebar .logo {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    
+}
+
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .menu .nav-item {
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.sidebar .menu .nav-item:hover,
+.sidebar .menu .nav-item.active {
+    background-color: #77d17a;
+    color: white;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: blac;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.form-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+}
+
+.form-actions > button > a{
+    text-decoration: none;
+    color: white;
+}
